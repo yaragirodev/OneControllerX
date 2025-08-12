@@ -1,10 +1,10 @@
-# 1Controller
+# 1ControllerX
 #### *1 Module to support all Game Controllers.*
 
 ![alt text](https://i.imgur.com/CODzG0F.png?4)
 
 ### About:
-This module aims to be an all-in-one module for controllers.
+This is fork of module that aims to be an all-in-one module for controllers.
 It adds .kl files to fix keybindings on many game controllers.
 
 ### Compatibility:
@@ -24,7 +24,7 @@ It adds .kl files to fix keybindings on many game controllers.
  - High delay when Dualshock 4 with Bluetooth (Seems to be a problem with the controller itself).
  - Doesn't work on MIUI 10 devices.
  
- #### [XDA Thread](https://forum.xda-developers.com/t/module-1controller-1-module-to-support-all-game-controllers.3865889/)
+ #### [XDA Thread (Original)](https://forum.xda-developers.com/t/module-1controller-1-module-to-support-all-game-controllers.3865889/)
  
  ### Credits:
  - [JaqFb](https://forum.xda-developers.com/member.php?u=7445450) for providing DS4 keylayouts.
@@ -33,6 +33,7 @@ It adds .kl files to fix keybindings on many game controllers.
  - [Black-Seraph](https://github.com/Black-Seraph) for Pro Controller Keylayout from CleanRom (GPD XD+).
  - [MattMasc](https://github.com/MattMasc) for DualShock 2 Keylayout.
  - [RuiGuilherme](https://github.com/RuiGuilherme) for Xbox Series X|S.
+ - [yaragirodev](https://github.com/yaragirodev) forked.
  
  
  ### Changelog:

@@ -21,7 +21,6 @@ It adds .kl files to fix keybindings on many game controllers.
  - Zeemote SteelSeries FREE
  
  ### Known Issues:
- - High delay when Dualshock 4 with Bluetooth (Seems to be a problem with the controller itself).
  - Doesn't work on MIUI 10 devices.
  
  #### [XDA Thread (Original)](https://forum.xda-developers.com/t/module-1controller-1-module-to-support-all-game-controllers.3865889/)

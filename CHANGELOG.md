@@ -1,3 +1,7 @@
+### Fork Changelog:
+ - **1.5.4:** Added **service.sh** and **post-fs-data** for installation in magisk 28+.
+ - **1.5.5:** Trying to remove input delay of bluetooth connection on DualShock 4.
+
 ### Original Changelog:
  - **1.0:** Initial GitHub Release.
  - **1.1:** Added Dualshock 3 support.
@@ -10,6 +14,4 @@
  - **1.4.3:** Updated to Magisk v20 template.
  - **1.5.0:** Added support for DualSense and Zeemote SteelSeries FREE controllers.
  - **1.5.1:** Added support for DualShock 2. ([MattMasc](https://github.com/MattMasc))
-
-### Fork Changelog:
- - **1.5.4:** Added **service.sh** and **post-fs-data** for installation in magisk 28+.
+ - 

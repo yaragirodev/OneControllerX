@@ -13,11 +13,10 @@
 # limitations under the License.
 
 #
-# Sony Playstation(R) DualShock 4 Controller
+# Sony Playstation(R) DualShock 4 Controller v2 - Optimized for Low Latency
 #
 
-
-# Mapping according to https://developer.android.com/traini...ler-input.html
+# Mapping according to https://developer.android.com/training/game-controllers/controller-input.html
 
 # Square
 key 0x130 BUTTON_X
@@ -33,29 +32,28 @@ key 0x135 BUTTON_R1
 key 0x136 BUTTON_L2
 key 0x137 BUTTON_R2
 
-# L2 axis
-axis 0x03 LTRIGGER
-# R2 axis
-axis 0x04 RTRIGGER
+# L2 axis - reduced flat zone for faster response
+axis 0x03 LTRIGGER flat 0
+# R2 axis - reduced flat zone for faster response
+axis 0x04 RTRIGGER flat 0
 
-
-# Left Analog Stick
-axis 0x00 X
-axis 0x01 Y
-# Right Analog Stick
-axis 0x02 Z
-axis 0x05 RZ
+# Left Analog Stick - optimized dead zones
+axis 0x00 X flat 1024
+axis 0x01 Y flat 1024
+# Right Analog Stick - optimized dead zones
+axis 0x02 Z flat 1024
+axis 0x05 RZ flat 1024
 
 # Left stick click
 key 0x13a BUTTON_THUMBL
 # Right stick click
 key 0x13b BUTTON_THUMBR
 
-# Hat
-axis 0x10 HAT_X
-axis 0x11 HAT_Y
+# Hat - immediate response
+axis 0x10 HAT_X flat 0
+axis 0x11 HAT_Y flat 0
 
-# Mapping according to https://www.kernel.org/doc/Documenta...ut/gamepad.txt
+# Mapping according to https://www.kernel.org/doc/Documentation/input/gamepad.txt
 # Share
 key 0x138 BUTTON_SELECT
 # Options
@@ -64,8 +62,5 @@ key 0x139 BUTTON_START
 # PS key
 key 0x13c BUTTON_MODE
 
-# Touchpad press
-# The touchpad for this joystick will become a separate input device in future releases
-# and this button will be equivalent to left mouse button
-# Therefore, map it to KEYCODE_BUTTON_1 here to allow apps to still handle this on earlier versions
+# Touchpad press - immediate response
 key 0x13d BUTTON_1

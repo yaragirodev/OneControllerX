@@ -35,6 +35,5 @@ It adds .kl files to fix keybindings on many game controllers.
  - [RuiGuilherme](https://github.com/RuiGuilherme) for Xbox Series X|S.
  - [yaragirodev](https://github.com/yaragirodev) forked.
  
- 
- 
- - **1.5.2:** Added support for Xbox Series X|S. ([RuiGuilherme](https://github.com/RuiGuilherme))
+### Changelog:
+ You can check it here: [CHANGELOG.md](CHANGELOG.md)

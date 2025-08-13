@@ -1,7 +1,7 @@
 # 1ControllerX
 #### *1 Module to support all Game Controllers.*
 
-![alt text](https://i.imgur.com/CODzG0F.png?4)
+![logotype](https://i.ibb.co/2RDg6Mx/2-20250813033941.png)
 
 ### About:
 This is fork of module that aims to be an all-in-one module for controllers.

@@ -6,4 +6,4 @@
 chmod 644 /system/usr/keylayout/Vendor_*.kl 2>/dev/null
 
 # Log successful execution
-echo "OneController: Service script executed successfully" >> /data/local/tmp/onecontroller.log
+echo "[1ControllerX]: Install Script Complete!" >> /data/local/tmp/onecontroller.log
